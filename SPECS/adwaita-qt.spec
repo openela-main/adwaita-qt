@@ -1,7 +1,7 @@
 
 Name:           adwaita-qt
-Version:        1.4.1
-Release:        3%{?dist}
+Version:        1.4.2
+Release:        1%{?dist}
 License:        LGPLv2+ and GPLv2+
 Summary:        Adwaita theme for Qt-based applications
 
@@ -74,6 +74,10 @@ developing applications that use libadwaita-qt5.
 %{_libdir}/libadwaitaqtpriv.so
 
 %changelog
+* Tue Apr 18 2023 Jan Grulich <jgrulich@redhat.com> - 1.4.2-1
+- 1.4.2
+  Resolves: bz#2175754
+
 * Fri Apr 22 2022 Jan Grulich <jgrulich@redhat.com> - 1.4.1-3
 - Bump build to build against correct Qt version
   Resolves: bz#2061416
